@@ -1,0 +1,17 @@
+@font-face {
+    font-family: The Suavita;
+    src: url(./the-suavity.regular.otf);
+}
+
+.logo-name{
+    font-size: 25px;
+    margin: 4px;
+    font-family: 'The Suavita';
+}
+
+#home-name{
+    margin-left: 10rem;
+    }
+    .navbar{
+        background-color: white;
+    }

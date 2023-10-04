@@ -1,0 +1,339 @@
+
+@font-face {
+    font-family: The Suavita;
+    src: url(./the-suavity.regular.otf);
+}
+
+
+ #logo-name{
+    font-size: 25px;
+    margin: 4px;
+    font-family: 'The Suavita';
+                                                
+}
+#home-name{
+margin-left: 10rem;
+}
+.navbar{
+    background-color: white;
+}
+.resume{
+    color: aqua;
+    line-height: 30px;
+    
+}
+#resume{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-left: -20px;
+}
+/* .heading{
+  margin-top: 170px;
+} */
+h1{
+    margin-top: 170px;
+    margin-left: -8px;
+}
+
+.image-main{
+    width: 675px;
+    height: 500px; 
+    margin-right: -143px;
+    margin-top: 90px;
+    margin-left: -132px;
+}
+.paragraph-main{
+    margin-right: 75px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Google Sans Medium;
+    line-height: 30px;
+    margin-right: 98px;
+}
+.paragraph{
+    margin-right: 75px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Google Sans Medium;
+    line-height: 30px;
+    margin-right: -267px;
+}
+.paragraph2{
+    margin-right: 75px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Google Sans Medium;
+    line-height: 30px;
+    margin-right: -67px;
+}
+/* .paragraph3{
+    margin-right: 42px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Google Sans Medium;
+    line-height: 30px;
+    margin-left: 405px;
+} */
+
+.social a {
+    margin-right: 10px; 
+}
+
+.social i {
+    vertical-align: middle;
+}
+#button{
+    width: 20vw;
+    margin-top: 20px;
+}
+#button:hover{
+    width: 30vw;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+}
+.checked {
+    color: yellow;
+  }
+.main-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.word {
+    margin: auto;
+    color: #080808;
+    font: 700 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+  .paragraph1{
+    margin-left: 20px;
+  }
+  .Fronted-Heading{
+    display: flex;
+    justify-content: right;
+  margin-left: 20px;
+  margin-top: 30px;
+  }
+  .h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-right: 160px;   
+  }
+  .h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-right: 326px;   
+  }
+  .certificate{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* margin-right: 326px;   
+margin-bottom: 50px; */
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  
+  /* .icon1{
+    width: 61px;
+    height: 58px;
+    margin: 10px;
+    margin-left: 31px;
+  }
+  .icon2{
+    width: 62px;
+    height: 66px;
+    margin: 13px;
+    margin-left: 18px;
+  }
+  .icon3{
+    width: 62px;
+    height: 66px;
+   
+    margin-left: 18px;
+    float: right;
+  } */
+  /* Style for the icon container */
+.icon {
+    display: flex; 
+    align-items: center; 
+    margin-left: 10px; 
+  
+}
+
+
+.icon img {
+    width: 80px; 
+    height: 80px; 
+    margin: 20px;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+  .paragraph{
+    margin-left: 43px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  @media   (max-width: 768px)  {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-toggler {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+    }
+
+    .greeting-nickname {
+        font-size: 20px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .social a {
+        font-size: 20px;
+    }
+
+    #button {
+        width: 100%;
+        max-width: none;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .main-heading {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .icon img {
+        width: 60px;
+        height: 60px;
+        margin: 0 10px;
+    }
+   
+}
+.card{
+   margin: 80px;
+   
+}
+.footer{
+  margin-left: 480px;
+  font-weight: bold;
+    
+}
+/* CSS for animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 1s ease, transform 1s ease-out;
+}
+
+.fade-out.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-in forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/* CSS for animation */
+.slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-in forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* CSS for vibration animation */
+.card-out {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease-out;
+}
+
+.card-out.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* CSS for navbar animation */
+/* CSS for navbar animation */
+.animate-navbar {
+    transform: translateY(-50px); /* Initial transformation */
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+
+
+
